@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'bootstrap'
+gem 'carrierwave'
 gem 'coffee-rails', '~> 4.1.0'
+gem 'dotenv-rails'
+gem 'fog'
 gem 'jbuilder', '~> 2.0'
 gem 'jquery-rails'
 gem 'pg'
