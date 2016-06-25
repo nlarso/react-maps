@@ -5,6 +5,6 @@ require 'minitest/reporters'
 
 class ActiveSupport::TestCase
   Minitest::Reporters.use! Minitest::Reporters::DefaultReporter.new(color: true)
- 
+
   fixtures :all
 end
