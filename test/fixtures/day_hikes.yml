@@ -1,0 +1,8 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+base:
+  name: My Hike
+  length: short
+  difficulty: moderate
+  season: winter
+  kml_file: file.kml
