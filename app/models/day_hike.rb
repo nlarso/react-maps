@@ -5,7 +5,7 @@ class DayHike < ActiveRecord::Base
     ['short', '1-3 Hours'],
     ['medium', '4-6 Hours'],
     ['long', '6-9 Hours'],
-    ['extreme', '10-12 Hours']
+    ['very_long', '10-12 Hours']
   ]
 
   mount_uploader :kml_file, KmlUploader

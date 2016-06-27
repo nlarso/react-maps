@@ -5,12 +5,18 @@
         tr
           th Name
           th File
+          th Length
+          th Difficulty
+          th Season
           th
       .tbody
         - @day_hikes.each do |day_hike|
           tr
             td= day_hike.name
             td= day_hike.kml_file_identifier
+            td= formatted_length(day_hike.length)
+            td= day_hike.difficulty.titleize
+            td= day_hike.season.titleize
             td= link_to 'Delete', [:admin, day_hike], method: :delete, class: 'btn btn-sm btn-danger pull-xs-right'
 .row
   = link_to 'Add KML File', [:new, :admin, :day_hike], class: 'btn btn-primary'
