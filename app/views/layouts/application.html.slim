@@ -9,3 +9,5 @@ html
   body
     .container
       = yield
+
+    = javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=#{Rails.application.secrets.google_maps_api_key}"
