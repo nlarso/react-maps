@@ -3,6 +3,7 @@ development: &default
   encoding: unicode
   host: localhost
   database: maps_development
+  user: postgres
 
 test:
   <<: *default
